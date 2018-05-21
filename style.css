@@ -1,0 +1,68 @@
+html {
+	font-size: 16px;
+}
+
+img {
+	width:240px;
+	vertical-align: middle;
+}
+
+/*Solo cuando se achique la pantalla se deben poner vertical*/
+/*
+.centrar {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+*/
+
+/*Funciona con elementos de linea dentro de un bloque que tiene la altura de una linea*/
+.centrar-vertical {
+	width: auto;
+	height: 400px;
+	line-height: 400px;
+}
+/*Funciona con elementos de bloque que tienen un ancho definido*/
+.centrar-horizontal {
+	margin-left: auto;
+	margin-right: auto;
+	width: 490px;
+}
+.portada {
+	padding: 0.5rem;
+}
+
+/*	Menu  */
+.menu {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu li {
+	display: inline;
+}
+.menu li  a:link {
+	text-decoration: none;
+	color: darkgreen;
+	padding: 0.5rem;
+}
+.menu li  a:hover {
+	color: darkgray;
+}
+/*Contenido de la consola*/
+.img-bloque {
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.colum {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
